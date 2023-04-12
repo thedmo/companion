@@ -3060,9 +3060,9 @@ commist@^1.0.0:
   dependencies:
     node-fetch "^2.6.7"
 
-"companion-module-bitfocus-companion@github:bitfocus/companion-module-bitfocus-companion#v1.11.0":
-  version "1.11.0"
-  resolved "https://codeload.github.com/bitfocus/companion-module-bitfocus-companion/tar.gz/4703debe1f5574a4cc461e8bc5cdc8a328dea1a8"
+"companion-module-bitfocus-companion@github:bitfocus/companion-module-bitfocus-companion#v1.11.1":
+  version "1.11.1"
+  resolved "https://codeload.github.com/bitfocus/companion-module-bitfocus-companion/tar.gz/0e08cd04020a7f0c8b39d95abbf652356cd9eab7"
   dependencies:
     jsonpath "^1.1.1"
     underscore "^1.13.2"
@@ -3430,9 +3430,9 @@ commist@^1.0.0:
   version "1.0.0"
   resolved "https://codeload.github.com/bitfocus/companion-module-epson-businesspj/tar.gz/386c58a0a73dbf13888477bf609eabc495412d4e"
 
-"companion-module-equipson-lightshark@github:bitfocus/companion-module-equipson-lightshark#v1.0.1":
-  version "1.0.1"
-  resolved "https://codeload.github.com/bitfocus/companion-module-equipson-lightshark/tar.gz/a7b4d9f0ec096dede22638c420685a5b2119bee4"
+"companion-module-equipson-lightshark@github:bitfocus/companion-module-equipson-lightshark#v1.0.2":
+  version "1.0.2"
+  resolved "https://codeload.github.com/bitfocus/companion-module-equipson-lightshark/tar.gz/ee0b6a78af7df6acdd208d04e6a37a03cb4a40fd"
 
 "companion-module-esphome-api@github:bitfocus/companion-module-esphome-api#v1.0.3":
   version "1.0.3"
@@ -3527,9 +3527,9 @@ commist@^1.0.0:
   version "1.0.2"
   resolved "https://codeload.github.com/bitfocus/companion-module-gefen-dvimatrix/tar.gz/dd4d006dc5c33c897355acf4f4ee170621abe94d"
 
-"companion-module-generic-artnet@github:bitfocus/companion-module-generic-artnet#v1.2.0":
-  version "1.2.0"
-  resolved "https://codeload.github.com/bitfocus/companion-module-generic-artnet/tar.gz/c86c2ce0e4447a85af4df20c969e7c0484228796"
+"companion-module-generic-artnet@github:bitfocus/companion-module-generic-artnet#v1.2.1":
+  version "1.2.1"
+  resolved "https://codeload.github.com/bitfocus/companion-module-generic-artnet/tar.gz/cc489b5a630536a6d6feb8639264053515769966"
   dependencies:
     artnet-node haakonnessjoen/artnet-node#ee6273d
 
@@ -3570,9 +3570,9 @@ commist@^1.0.0:
   version "1.3.0"
   resolved "https://codeload.github.com/bitfocus/companion-module-generic-pjlink/tar.gz/4d0e461fa2e20c4aaebc78f3381bd5c4e861bf4b"
 
-"companion-module-generic-sacn@github:bitfocus/companion-module-generic-sacn#v1.0.2":
-  version "1.0.2"
-  resolved "https://codeload.github.com/bitfocus/companion-module-generic-sacn/tar.gz/9e0244ba7f8291823341beea60112c05329e59ba"
+"companion-module-generic-sacn@github:bitfocus/companion-module-generic-sacn#v1.0.3":
+  version "1.0.3"
+  resolved "https://codeload.github.com/bitfocus/companion-module-generic-sacn/tar.gz/6dcfb15d92ecf840a17c5fda9354616cc0032155"
 
 "companion-module-generic-swp08@github:bitfocus/companion-module-generic-swp08#v1.0.5":
   version "1.0.5"
@@ -3644,9 +3644,11 @@ commist@^1.0.0:
   dependencies:
     socket.io-client "^4.4.0"
 
-"companion-module-haivision-connectdvr@github:bitfocus/companion-module-haivision-connectdvr#v1.1.8":
-  version "1.1.8"
-  resolved "https://codeload.github.com/bitfocus/companion-module-haivision-connectdvr/tar.gz/8a2d3719daf7acfc00c2cba83b8250660556618e"
+"companion-module-haivision-connectdvr@github:bitfocus/companion-module-haivision-connectdvr#v1.1.9":
+  version "1.1.9"
+  resolved "https://codeload.github.com/bitfocus/companion-module-haivision-connectdvr/tar.gz/10d0e3ff5716cb96fe89c495beb584e33a4e3764"
+  dependencies:
+    socket.io-client "^2.0.0"
 
 "companion-module-haivision-kbencoder@github:bitfocus/companion-module-haivision-kbencoder#v1.1.0":
   version "1.1.0"
@@ -4746,9 +4748,9 @@ commist@^1.0.0:
   version "1.0.2"
   resolved "https://codeload.github.com/bitfocus/companion-module-zenvideo-ndirouter/tar.gz/0e0a57e7b2da97f609cc779fff21ff87d47183ba"
 
-"companion-module-zoom-osc-iso@github:bitfocus/companion-module-zoom-osc-iso#v2.8.1":
-  version "2.8.1"
-  resolved "https://codeload.github.com/bitfocus/companion-module-zoom-osc-iso/tar.gz/8c2cdb6dcbd600218798dc9ddbe0eff0cf0c9a62"
+"companion-module-zoom-osc-iso@github:bitfocus/companion-module-zoom-osc-iso#v2.8.3":
+  version "2.8.3"
+  resolved "https://codeload.github.com/bitfocus/companion-module-zoom-osc-iso/tar.gz/e2d2007bde0bee18da1b731e485cd637b86c808c"
   dependencies:
     "@types/lodash" "^4.14.178"
     lodash "^4.17.21"
@@ -10239,6 +10241,23 @@ socket.io-client@3.1.0:
     engine.io-client "~4.1.0"
     parseuri "0.0.6"
     socket.io-parser "~4.0.4"
+
+socket.io-client@^2.0.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/socket.io-client/-/socket.io-client-2.5.0.tgz#34f486f3640dde9c2211fce885ac2746f9baf5cb"
+  integrity sha512-lOO9clmdgssDykiOmVQQitwBAF3I6mYcQAo7hQ7AM6Ny5X7fp8hIJ3HcQs3Rjz4SoggoxA1OgrQyY8EgTbcPYw==
+  dependencies:
+    backo2 "1.0.2"
+    component-bind "1.0.0"
+    component-emitter "~1.3.0"
+    debug "~3.1.0"
+    engine.io-client "~3.5.0"
+    has-binary2 "~1.0.2"
+    indexof "0.0.1"
+    parseqs "0.0.6"
+    parseuri "0.0.6"
+    socket.io-parser "~3.3.0"
+    to-array "0.1.4"
 
 socket.io-client@^4.4.0, socket.io-client@^4.5.1, socket.io-client@^4.5.3:
   version "4.5.3"
